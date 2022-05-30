@@ -3,6 +3,7 @@ package project;
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
+import java.awt.GridBagLayout;
 import java.awt.Toolkit;
 
 import javax.swing.JButton;
@@ -20,6 +21,7 @@ public class GamePop extends JFrame
 		
 		Container c = getContentPane();
 		c.setBackground(Color.WHITE);
+		c.setLayout(new GridBagLayout());
 		
 		JButton CardGame = new JButton("카드 게임");
 		
